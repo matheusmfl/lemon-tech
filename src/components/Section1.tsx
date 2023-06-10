@@ -48,7 +48,7 @@ export function Section1() {
           Comece a aceitar pagamentos
         </button>
       </div>
-      <div>
+      <div className="translate-x-1">
         <Image
           src={rightSeparator}
           width={1800}

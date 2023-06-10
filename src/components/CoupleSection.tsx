@@ -23,9 +23,7 @@ export function CoupleSection() {
             Controle total
           </h2>
 
-          <div className="translate-x-1">
-            <Separator />
-          </div>
+          <Separator />
 
           <span className="font-normal text-base leading-6 text-slate-900">
             Com um site próprio, você tem controle total sobre o design, o
@@ -35,7 +33,7 @@ export function CoupleSection() {
           </span>
         </div>
         {/* Separador com PT para caber imagem */}
-        <div className="pt-[326px]">
+        <div className="pt-[326px] translate-x-1">
           <Image
             src={separator}
             width={1800}
