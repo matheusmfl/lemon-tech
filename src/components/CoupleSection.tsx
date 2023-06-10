@@ -45,7 +45,7 @@ export function CoupleSection() {
 
       {/* Parte preta da section */}
 
-      <div className="flex flex-col gap-5 px-6 pt-[337px] pb-[80px] bg-neutral-900">
+      <div className="flex flex-col gap-5 px-6 pt-[357px] pb-[80px] bg-neutral-900">
         <span className="font-normal text-base leading-6 text-slate-50">
           Reduza sua dependência de terceiros e evite mudanças inesperadas nas
           políticas e regras de plataformas terceirizadas. Isso proporciona mais
