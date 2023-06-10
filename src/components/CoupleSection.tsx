@@ -7,7 +7,7 @@ export function CoupleSection() {
   return (
     <section className="relative">
       {/* Container com a imagem */}
-      <div className="absolute h-[648px] top-[280px]">
+      <div className="absolute h-[648px] top-[280px] z-10">
         <Image
           src={mockup}
           alt="mockup com nossos projetos"
