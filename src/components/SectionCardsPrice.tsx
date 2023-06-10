@@ -5,7 +5,7 @@ import separator from '../assets/rightSeparator.svg'
 
 export function SectionCardsPrice() {
   return (
-    <section className="bg-slate-100 ">
+    <section className="bg-slate-100 overflow-x-hidden">
       {/* Main Container */}
       <div className="px-6 py-10 flex flex-col gap-10">
         {/* Div Texts */}
@@ -53,8 +53,13 @@ export function SectionCardsPrice() {
       </div>
 
       {/* Separator */}
-      <div className="w-full">
-        <Image src={separator} alt="separador da página" />
+      <div className="w-screen">
+        <Image
+          src={separator}
+          width={1800}
+          height={1800}
+          alt="separador da página"
+        />
       </div>
     </section>
   )
