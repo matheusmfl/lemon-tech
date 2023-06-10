@@ -7,7 +7,7 @@ import rightSeparator from '../assets/rightSeparator.svg'
 export function Section1() {
   return (
     <section className="flex flex-col bg-slate-50 overflow-x-hidden">
-      <div className="-translate-x-1">
+      <div className="">
         <Image
           src={separator}
           alt="Separador de página"
