@@ -1,9 +1,20 @@
 import { Separator } from './Separator'
 import { CardsGlasmorfism } from './microComponents/CardsGlasmorfism'
+import arrowbg from '../assets/arrow-bg.svg'
+import Image from 'next/image'
 
 export function Section2() {
   return (
-    <section className="py-10 px-6 flex flex-col gap-10 overflow-x-hidden">
+    <section className="py-10 px-6 flex flex-col gap-10 overflow-x-hidden relative">
+      {/* bg da seta */}
+      <div className="absolute left-0 top-[436px] h-[720px]">
+        <Image
+          src={arrowbg}
+          height={1200}
+          width={1200}
+          alt="Setas de background"
+        />
+      </div>
       {/* TextDiv */}
       <div className="flex flex-col gap-5">
         <span className="font-medium text-sm text-gray-500 leading-4">
