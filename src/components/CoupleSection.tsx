@@ -5,7 +5,7 @@ import mockup from '../assets/mockupCoupleSection.svg'
 
 export function CoupleSection() {
   return (
-    <section className="relative">
+    <section className="relative overflow-x-hidden">
       {/* Container com a imagem */}
       <div className="absolute h-[648px] top-[280px] z-10">
         <Image
