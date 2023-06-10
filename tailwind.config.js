@@ -21,6 +21,7 @@ module.exports = {
 
       boxShadow: {
         'glasmorphosm-shadow': '8px 8px 8px rgba(0, 0, 0, 0.16);',
+        'card-price': '3px 8px 30px rgba(0, 0, 0, 0.09);',
       },
 
       blur: {
