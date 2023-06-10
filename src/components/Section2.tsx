@@ -25,7 +25,9 @@ export function Section2() {
           Melhore a presença digital da sua marca
         </h2>
 
-        <Separator />
+        <div className="translate-x-1">
+          <Separator />
+        </div>
 
         <span className="font-normal text-base leading-6 text-slate-50">
           Empresas com sites mal estruturados correm o risco de prejudicar seu

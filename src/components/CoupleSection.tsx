@@ -23,7 +23,9 @@ export function CoupleSection() {
             Controle total
           </h2>
 
-          <Separator />
+          <div className="translate-x-1">
+            <Separator />
+          </div>
 
           <span className="font-normal text-base leading-6 text-slate-900">
             Com um site próprio, você tem controle total sobre o design, o
