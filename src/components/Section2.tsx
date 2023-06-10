@@ -3,7 +3,7 @@ import { CardsGlasmorfism } from './microComponents/CardsGlasmorfism'
 
 export function Section2() {
   return (
-    <section className="py-10 px-6 flex flex-col gap-10">
+    <section className="py-10 px-6 flex flex-col gap-10 overflow-x-hidden">
       {/* TextDiv */}
       <div className="flex flex-col gap-5">
         <span className="font-medium text-sm text-gray-500 leading-4">
