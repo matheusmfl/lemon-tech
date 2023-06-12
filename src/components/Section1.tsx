@@ -4,6 +4,7 @@ import mockup from '../assets/mockupFirstSection.svg'
 import { Separator } from './Separator'
 import rightSeparator from '../assets/rightSeparator.svg'
 import mdSeparator from '../assets/mediumSeparator.svg'
+import mdRightSeparator from '../assets/mediumRightSeparator.svg'
 
 export function Section1() {
   return (
@@ -77,6 +78,14 @@ export function Section1() {
           width={1800}
           height={1800}
           alt="Separador de página"
+          className="md:hidden"
+        />
+        <Image
+          src={mdRightSeparator}
+          width={1800}
+          height={1800}
+          alt="Separador de página"
+          className="hidden md:block"
         />
       </div>
     </section>
