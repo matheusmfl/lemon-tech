@@ -2,14 +2,18 @@ import Image from 'next/image'
 import { Separator } from './Separator'
 import { PriceCards } from './microComponents/PriceCards'
 import separator from '../assets/rightSeparator.svg'
+import mdRightSeparator from '../assets/mediumRightSeparator.svg'
 
 export function SectionCardsPrice() {
   return (
     <section className="bg-slate-100 overflow-x-hidden">
       {/* Main Container */}
-      <div className="px-6 py-10 flex flex-col gap-10">
+      <div className="px-6 py-10 flex flex-col gap-10 md:px-20">
         {/* Div Texts */}
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 md:w-[400px]">
+          <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
+            Níveis de produto
+          </span>
           <h2 className="font-medium text-[32px] leading-10 text-slate-900">
             Adquira seu site de forma progressiva
           </h2>
@@ -20,7 +24,7 @@ export function SectionCardsPrice() {
           </span>
         </div>
         {/* div cards */}
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 md:flex-row md:grid md:grid-cols-3">
           <PriceCards
             cardType="step1"
             title="Crie um MVP do seu site e arrecade dinheiro"
@@ -38,7 +42,7 @@ export function SectionCardsPrice() {
           />
         </div>
         {/* Div preços */}
-        <div className="flex flex-col gap-5 text-center">
+        <div className="flex flex-col gap-5 text-center md:text-left">
           <span className="font-medium leading-6 text-slate-900 text-base">
             Começando com apenas
           </span>
@@ -46,7 +50,7 @@ export function SectionCardsPrice() {
             R$ 1.200
           </span>
 
-          <button className="w-full py-[10px] text-center bg-teal-700 rounded-[4px] font-medium text-slate-50 text-base">
+          <button className="w-full py-[10px] md:w-[140px] hover:brightness-90 text-center bg-teal-700 rounded-[4px] font-medium text-slate-50 text-base">
             Saiba mais
           </button>
         </div>
@@ -58,7 +62,15 @@ export function SectionCardsPrice() {
           src={separator}
           width={1800}
           height={1800}
-          alt="separador da página"
+          alt="Separador de página"
+          className="md:hidden"
+        />
+        <Image
+          src={mdRightSeparator}
+          width={1800}
+          height={1800}
+          alt="Separador de página"
+          className="hidden md:block"
         />
       </div>
     </section>
