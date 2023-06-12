@@ -35,7 +35,7 @@ export function Accordeon() {
             <Accordion.Content
               className={`${isItemOpen && 'animate-slideDown'} ${!isItemOpen && 'animate-slideUp'} overflow-hidden`}
             >
-              <div className='bg-slate-100 px-3 py-4'>
+              <div className='bg-slate-100 px-3 py-4 font-normal text-base text-neutral-900'>
                 <ul className='list-disc list-inside flex flex-col gap-2'>
                   {item.content.map((list, index) => {
                     return (
