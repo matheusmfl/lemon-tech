@@ -3,7 +3,7 @@ import { Accordeon } from './microComponents/Accordeon'
 
 export function SectionFaq() {
   return (
-    <section className="flex flex-col py-10 px-6 bg-neutral-900">
+    <section className="flex flex-col py-10 px-6 bg-neutral-900 gap-14">
       {/* div textos  */}
       <div className="flex flex-col gap-5">
         <span className="font-medium text-sm text-gray-500 leading-4">FAQ</span>
@@ -21,7 +21,7 @@ export function SectionFaq() {
       </div>
 
       {/* Collapsible Content */}
-      <div>
+      <div className="pb-10 w-full">
         <Accordeon />
       </div>
     </section>

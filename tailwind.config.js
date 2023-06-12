@@ -22,6 +22,21 @@ module.exports = {
       boxShadow: {
         'glasmorphosm-shadow': '8px 8px 8px rgba(0, 0, 0, 0.16);',
         'card-price': '3px 8px 30px rgba(0, 0, 0, 0.09);',
+        'inner-shadow': 'inset 0px -1px 0px #525252;',
+      },
+      keyframes: {
+        slideDown: {
+          from: { height: 0 },
+          to: { height: 'var(--radix-accordion-content-height)' },
+        },
+        slideUp: {
+          from: { height: 'var(--radix-accordion-content-height)' },
+          to: { height: 0 },
+        },
+      },
+      animation: {
+        slideDown: 'slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideUp: 'slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)',
       },
 
       blur: {
