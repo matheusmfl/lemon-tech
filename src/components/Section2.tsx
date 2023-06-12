@@ -5,29 +5,29 @@ import Image from 'next/image'
 
 export function Section2() {
   return (
-    <section className="py-10 px-6 flex flex-col gap-10 overflow-x-hidden relative">
+    <section className="py-10 px-6 flex flex-col md:px-20 gap-10 overflow-x-hidden md:overflow-y-hidden relative">
       {/* bg da seta */}
-      <div className="absolute left-0 top-[436px] h-[720px]">
+      <div className="absolute left-0 top-[336px] h-[420px]">
         <Image
           src={arrowbg}
-          height={1200}
-          width={1200}
+          height={1100}
+          width={900}
           alt="Setas de background"
         />
       </div>
       {/* TextDiv */}
-      <div className="flex flex-col gap-5">
-        <span className="font-medium text-sm text-gray-500 leading-4">
+      <div className="flex flex-col gap-5 md:pt-5">
+        <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
           Identidade da marca
         </span>
 
-        <h2 className="font-medium text-[32px] leading-10 text-slate-50">
+        <h2 className="font-medium text-[32px] leading-10 text-slate-50 md:w-[342px]">
           Melhore a presença digital da sua marca
         </h2>
 
         <Separator />
 
-        <span className="font-normal text-base leading-6 text-slate-50">
+        <span className="font-normal text-base leading-6 text-slate-50 md:w-[640px]">
           Empresas com sites mal estruturados correm o risco de prejudicar seu
           valor aos olhos dos clientes. A experiência negativa, a dificuldade em
           encontrar informações relevantes e o design pouco atraente podem levar
@@ -38,7 +38,7 @@ export function Section2() {
         </span>
       </div>
       {/* Container dos cards */}
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 md:grid md:grid-cols-2">
         <CardsGlasmorfism
           title="Posicionamento"
           content="A forma como a sua marca é vista influencia nas tomadas de decisões de compra"
