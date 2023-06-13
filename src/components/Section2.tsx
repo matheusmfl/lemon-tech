@@ -27,7 +27,7 @@ export function Section2() {
 
         <Separator />
 
-        <span className="font-normal text-base leading-6 text-slate-50 md:w-[640px]">
+        <span className="font-normal text-base leading-6 z-20 text-slate-50 md:w-[640px]">
           Empresas com sites mal estruturados correm o risco de prejudicar seu
           valor aos olhos dos clientes. A experiência negativa, a dificuldade em
           encontrar informações relevantes e o design pouco atraente podem levar

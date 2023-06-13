@@ -5,18 +5,18 @@ import instagram from '../assets/icons/instagram.svg'
 
 export function Footer() {
   return (
-    <footer className="flex flex-col py-10 px-6 relative gap-10 overflow-hidden">
+    <footer className="flex flex-col py-10 px-6 md:px-20 relative gap-10 overflow-hidden">
       {/* logo */}
       <div className="flex items-center justify-center py-5">
         <Image src={logo} alt="Logo" className="h-10 w-[94px]" />
       </div>
       {/* Bg Gradients */}
       <div
-        className="absolute right-0 top-1/2 h-[348px] w-[325px] -translate-y-48 rounded-full translate-x-1/2
+        className="absolute right-0 md:left-0 top-1/2 h-[348px] w-[325px] md:-translate-x-1/2 -translate-y-48 rounded-full translate-x-1/2
      opacity-50 blur-full bg-gradient-image"
       />
       <div
-        className="absolute left-0 bottom-0 h-[282px] w-[286px] translate-y-32 rounded-full -translate-x-1/2
+        className="absolute left-0 bottom-0 md:right-0 md:left-full md:-translate-x-1/2 h-[282px] w-[286px] translate-y-32 rounded-full -translate-x-1/2
      opacity-50 blur-full bg-gradient-image rotate-45"
       />
       {/* List Footer */}
