@@ -47,7 +47,7 @@ export function Footer() {
       </div>
       {/* Endereço */}
 
-      <span className="text-slate-50 font-medium text-sm leading-5 z-10 text-center hover:underline cursor-pointer">
+      <span className="text-slate-50 font-medium text-sm lg:text-left leading-5 z-10 text-center hover:underline cursor-pointer">
         Av. Fernando simoes barbosa, 380 - Boa viagem - Recife, PE/Brasil
       </span>
 

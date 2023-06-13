@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={`${roboto.className} overflow-x-hidden`}>
         <main className="bg-neutral-900 flex flex-col md:z-10 md:overflow-x-hidden">
           {children}
         </main>

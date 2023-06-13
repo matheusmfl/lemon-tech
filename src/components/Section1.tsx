@@ -26,12 +26,12 @@ export function Section1() {
         />
       </div>
       {/* Essa DIV serve para responsividade, para colocar a imagem e o container alinhado */}
-      <div className="md:flex">
+      <div className="md:flex lg:overflow-x-hidden">
         {/* Main container */}
         <div className="pt-10 pb-10 px-6 md:px-20 bg-slate-50 md:pb-0">
           {/* Hero text Div */}
           <div className="flex flex-col gap-5 md:w-[412px] lg:w-[620px] lg:gap-10 lg:pt-20">
-            <span className="font-medium text-sm text-gray-500 leading-4">
+            <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
               Pagamento integrado
             </span>
 
