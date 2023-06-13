@@ -6,11 +6,11 @@ export function Hero() {
   return (
     <section className="relative px-6 flex flex-col py-5 gap-10 md:px-20 md:overflow-y-visible md:overflow-x-hidden md:z-10">
       <div
-        className="absolute left-0 top-1/2 h-[271px] w-[208px] md:h-[344px] md:w-[275px] -translate-y-48 rounded-full -translate-x-1/2
+        className="absolute left-0 top-1/2 h-[271px] lg:top-1/2 w-[208px] md:h-[344px] md:w-[275px] lg:w-[363px] lg:h-[450px] -translate-y-48 rounded-full -translate-x-1/2
      opacity-50 blur-full bg-gradient-image"
       />
       <div className="pt-14 z-10">
-        <h1 className="font-semibold text-4xl leading-[48px] text-slate-50 text-left">
+        <h1 className="font-semibold text-4xl leading-[48px] lg:leading-[76px] lg:w-[720px] lg:text-6xl text-slate-50 text-left">
           Design e<br className="md:hidden" /> Tecnologia para
           <br className="hidden md:block" /> vendas e gestão administrativa
         </h1>
