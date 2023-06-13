@@ -8,7 +8,7 @@ const roboto = Roboto({
 })
 
 export const metadata = {
-  title: 'Lemon Tecnologia e inovação',
+  title: 'Zenon Tecnologia e inovação',
   description: 'Aplicações Web para todos os tipos de negócios',
 }
 
