@@ -10,7 +10,7 @@ export function SectionCardsPrice() {
       {/* Main Container */}
       <div className="px-6 py-10 flex flex-col gap-10 md:px-20">
         {/* Div Texts */}
-        <div className="flex flex-col gap-5 md:w-[400px]">
+        <div className="flex flex-col gap-5 md:w-[400px] lg:w-[660px]">
           <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
             Níveis de produto
           </span>
@@ -18,7 +18,7 @@ export function SectionCardsPrice() {
             Adquira seu site de forma progressiva
           </h2>
           <Separator />
-          <span className="font-normal text-base leading-6 text-slate-900">
+          <span className="font-normal text-base leading-6 lg:w-[400px] text-slate-900">
             Site mínimo viável é construído e pago por etapas facilitando seu
             primeiro passo para o digital.
           </span>
