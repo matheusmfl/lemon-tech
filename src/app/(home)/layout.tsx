@@ -17,9 +17,6 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <Head>
-        <Analitycs />
-      </Head>
       <body className={`${roboto.className} overflow-x-hidden`}>
         {/* <!-- Google Tag Manager (noscript) --> */}
         <noscript>
@@ -30,6 +27,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             style={{ display: 'none', visibility: 'hidden' }}
           ></iframe>
         </noscript>
+        <Head>
+          <Analitycs />
+        </Head>
         {/* <!-- End Google Tag Manager (noscript) --> */}
         <main className="bg-neutral-900 flex flex-col md:z-10 md:overflow-x-hidden">
           {children}
