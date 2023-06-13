@@ -4,7 +4,7 @@ import arrow from '../assets/arrowRight.svg'
 
 export function Hero() {
   return (
-    <section className="relative px-6 flex flex-col py-5 gap-10 md:px-20 md:overflow-y-visible md:z-10">
+    <section className="relative px-6 flex flex-col py-5 gap-10 md:px-20 md:overflow-y-visible md:overflow-x-hidden md:z-10">
       <div
         className="absolute left-0 top-1/2 h-[271px] w-[208px] md:h-[344px] md:w-[275px] -translate-y-48 rounded-full -translate-x-1/2
      opacity-50 blur-full bg-gradient-image"

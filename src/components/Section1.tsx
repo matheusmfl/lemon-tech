@@ -8,7 +8,7 @@ import mdRightSeparator from '../assets/mediumRightSeparator.svg'
 
 export function Section1() {
   return (
-    <section className="flex flex-col bg-slate-50 overflow-x-hidden md:overflow-y-visible">
+    <section className="flex flex-col bg-slate-50 overflow-x-hidden md:overflow-y-visible md:overflow-x-hidden">
       <div className="-translate-x-1">
         <Image
           src={separator}

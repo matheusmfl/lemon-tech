@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export function Section2() {
   return (
-    <section className="py-10 px-6 flex flex-col md:px-20 gap-10 overflow-x-hidden md:overflow-y-hidden relative">
+    <section className="py-10 px-6 flex flex-col md:px-20 gap-10 overflow-x-hidden md:overflow-y-hidden relative md:overflow-x-hidden">
       {/* bg da seta */}
       <div className="absolute left-0 top-[336px] h-[420px]">
         <Image

@@ -10,11 +10,11 @@ export function CoupleSection() {
     <section className="relative overflow-x-hidden md:overflow-y-hidden">
       {/* bg-gradient somente para medium */}
       <div
-        className="absolute hidden md:block right-0 bottom-0   md:h-[344px] md:w-[275px] translate-y-48 rounded-full translate-x-1/2
+        className="absolute hidden md:block right-0 bottom-0 md:h-[344px] md:w-[275px] translate-y-48 rounded-full translate-x-1/2
      opacity-50 blur-full bg-gradient-image"
       />
       {/* Container com a imagem */}
-      <div className="absolute h-[648px] md:w-1/2 top-[280px] md:top-[124px] right-0 z-10">
+      <div className="absolute h-[648px] md:w-1/2 pt-10 top-[280px] md:top-[124px] right-0 z-10">
         <Image
           src={mockup}
           alt="mockup com nossos projetos"
@@ -71,7 +71,7 @@ export function CoupleSection() {
 
       {/* Parte preta da section */}
 
-      <div className="flex flex-col gap-5 px-6 pt-[357px] md:pt-20 md:px-20 pb-[80px] bg-neutral-900">
+      <div className="flex flex-col gap-5 px-6 pt-[357px] md:pt-20 md:px-20 pb-[80px] md:overflow-x-hidden bg-neutral-900">
         <span className="font-normal text-base leading-6 text-slate-50 md:w-[400px]">
           Reduza sua dependência de terceiros e evite mudanças inesperadas nas
           políticas e regras de plataformas terceirizadas. Isso proporciona mais

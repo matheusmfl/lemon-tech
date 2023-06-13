@@ -25,7 +25,7 @@ const getIconByCardType = (cardType: Iprops['cardType']) => {
 export function PriceCards({ title, cardType, content }: Iprops) {
   const icon = getIconByCardType(cardType)
   return (
-    <div className="px-6 py-10 bg-neutral-100 flex flex-col gap-5 shadow-card-price rounded-lg">
+    <div className="px-6 py-10 bg-neutral-100 flex flex-col gap-5 shadow-card-price rounded-lg overflow-x-hidden">
       {/* Icone e title */}
       <div className="flex flex-col gap-[10px]">
         {cardType === 'step1' && (

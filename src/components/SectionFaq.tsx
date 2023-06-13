@@ -3,7 +3,7 @@ import { Accordeon } from './microComponents/Accordeon'
 
 export function SectionFaq() {
   return (
-    <section className="flex flex-col py-10 px-6 md:px-20 bg-neutral-900 gap-14">
+    <section className="flex flex-col py-10 px-6 md:px-20 bg-neutral-900 gap-14 md:overflow-x-hidden">
       {/* div textos  */}
       <div className="flex flex-col gap-5 md:w-[340px]">
         <span className="font-medium text-sm text-gray-500 leading-4">FAQ</span>

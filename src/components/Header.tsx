@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Header() {
   return (
-    <header className="px-6 py-8 flex justify-between md:px-20">
+    <header className="px-6 py-8 flex justify-between md:px-20 overflow-hidden">
       <div className="-mt-[10px]">
         <Image src={logo} alt="Logomarca da empresa" />
       </div>
