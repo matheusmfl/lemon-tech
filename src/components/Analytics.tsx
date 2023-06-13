@@ -4,7 +4,8 @@ export function Analitycs() {
   const GTM_ID = 'GTM-WJ8B4JL'
   return (
     <>
-      <script
+      <Script
+        id="Tag-Manager"
         dangerouslySetInnerHTML={{
           __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -14,10 +15,10 @@ export function Analitycs() {
         }}
       />
 
-      <script
+      <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-QYNZTSYH7Y"
-      ></script>
+      ></Script>
       <Script
         strategy="afterInteractive"
         id="Google-analytics"
