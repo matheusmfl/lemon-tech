@@ -5,9 +5,9 @@ import Image from 'next/image'
 
 export function Section2() {
   return (
-    <section className="py-10 px-6 flex flex-col md:px-20 gap-10 overflow-x-hidden md:overflow-y-hidden relative md:overflow-x-hidden">
+    <section className="py-10 px-6 flex flex-col lg:flex-row md:px-20 gap-10 overflow-x-hidden md:overflow-y-hidden relative md:overflow-x-hidden">
       {/* bg da seta */}
-      <div className="absolute left-0 top-[336px] h-[420px]">
+      <div className="absolute left-0 top-[336px] h-[420px] lg:top-[170px] lg:left-44">
         <Image
           src={arrowbg}
           height={1100}
@@ -16,7 +16,7 @@ export function Section2() {
         />
       </div>
       {/* TextDiv */}
-      <div className="flex flex-col gap-5 md:pt-5">
+      <div className="flex flex-col gap-5 md:pt-5 lg:w-[540px]">
         <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
           Identidade da marca
         </span>
@@ -27,7 +27,7 @@ export function Section2() {
 
         <Separator />
 
-        <span className="font-normal text-base leading-6 z-20 text-slate-50 md:w-[640px]">
+        <span className="font-normal text-base leading-6 z-20 text-slate-50 md:w-[640px] lg:w-[540px]">
           Empresas com sites mal estruturados correm o risco de prejudicar seu
           valor aos olhos dos clientes. A experiência negativa, a dificuldade em
           encontrar informações relevantes e o design pouco atraente podem levar
