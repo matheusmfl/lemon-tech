@@ -30,7 +30,7 @@ export function Section1() {
         {/* Main container */}
         <div className="pt-10 pb-10 px-6 md:px-20 bg-slate-50 md:pb-0">
           {/* Hero text Div */}
-          <div className="flex flex-col gap-5 md:w-[412px]">
+          <div className="flex flex-col gap-5 md:w-[412px] lg:w-[620px] lg:gap-10 lg:pt-20">
             <span className="font-medium text-sm text-gray-500 leading-4">
               Pagamento integrado
             </span>
@@ -48,13 +48,13 @@ export function Section1() {
               e a credibilidade do seu negócio.
             </span>
             {/* Botão só existe na responsividade */}
-            <button className="w-full py-[10px] hidden md:block font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
+            <button className="w-full py-[10px] lg:w-[326px] hidden md:block font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
               Comece a aceitar pagamentos
             </button>
           </div>
         </div>
         {/* Div de imagem */}
-        <div className="translate-x-1 bg-slate-50 md:-translate-y-36 right-0 md:bg-transparent md:z-50 md:absolute md:w-[394px] md:h-[645px]">
+        <div className="translate-x-1 bg-slate-50 md:-translate-y-36 right-0 md:bg-transparent md:z-50 md:absolute md:w-[394px] md:h-[645px] lg:w-[518px] lg:-translate-y-96">
           <Image
             src={mockup}
             width={1200}
