@@ -2,7 +2,6 @@ import { ReactNode } from 'react'
 import '../globals.css'
 import { Roboto } from 'next/font/google'
 
-import Head from 'next/head'
 import Script from 'next/script'
 
 const roboto = Roboto({
