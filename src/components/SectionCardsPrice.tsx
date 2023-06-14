@@ -60,14 +60,14 @@ export function SectionCardsPrice() {
       <div className="w-screen">
         <Image
           src={separator}
-          width={1800}
+          width={2400}
           height={1800}
           alt="Separador de página"
           className="md:hidden"
         />
         <Image
           src={mdRightSeparator}
-          width={1800}
+          width={2400}
           height={1800}
           alt="Separador de página"
           className="hidden md:block"
