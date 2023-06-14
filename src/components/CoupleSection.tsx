@@ -15,7 +15,7 @@ export function CoupleSection() {
      opacity-50 blur-full bg-gradient-image"
       />
       {/* Container com a imagem */}
-      <div className="absolute h-[648px] md:w-1/2 pt-10 top-[280px] md:top-[124px] lg:right-[500px] lg:w-[830px] right-0 z-10">
+      <div className="absolute h-[648px] md:w-1/2 pt-10 top-[280px] md:top-[124px] lg:right-[500px] 2xl:right-[900px] lg:w-[830px] right-0 z-10">
         <Image
           src={mockup}
           alt="mockup com nossos projetos"
