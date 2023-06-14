@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Separator } from './Separator'
 import { PriceCards } from './microComponents/PriceCards'
-import separator from '../assets/rightSeparator.svg'
+import separator from '../assets/rightSeparator.png'
 import mdRightSeparator from '../assets/mediumRightSeparator.svg'
 
 export function SectionCardsPrice() {
