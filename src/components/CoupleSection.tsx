@@ -43,7 +43,7 @@ export function CoupleSection() {
         {/* Parte branca da section */}
         <div className="bg-slate-50">
           {/* parte de texto */}
-          <div className="flex flex-col gap-5 px-6 pt-10  lg:ml-[760px] 2xl:ml[1400px] md:pt-20 md:px-20 md:[400px]">
+          <div className="flex flex-col gap-5 px-6 pt-10  lg:ml-[760px] 2xl:ml[1100px] md:pt-20 md:px-20 md:[400px]">
             <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
               Sistemas independentes
             </span>
@@ -81,8 +81,8 @@ export function CoupleSection() {
 
         {/* Parte preta da section */}
 
-        <div className="flex flex-col gap-5 px-6 pt-[357px] lg:ml-[760px] 2xl:ml-[1400px] lg:pt-10 md:pt-20 md:px-20 pb-[80px] md:overflow-x-hidden bg-neutral-900">
-          <span className="font-normal text-base leading-6 text-slate-50 md:w-[400px]">
+        <div className="flex flex-col gap-5 px-6 pt-[357px] lg:ml-[760px] 2xl:ml-[1100px] lg:pt-10 md:pt-20 md:px-20 pb-[80px] md:overflow-x-hidden bg-neutral-900">
+          <span className="font-normal text-base leading-6 text-slate-50 md:w-[400px] 2xl:w-[600px]">
             Reduza sua dependência de terceiros e evite mudanças inesperadas nas
             políticas e regras de plataformas terceirizadas. Isso proporciona
             mais estabilidade e controle sobre suas estratégias de publicidade a
