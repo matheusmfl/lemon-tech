@@ -13,14 +13,14 @@ export function Section1() {
         <Image
           src={separator}
           alt="Separador de página"
-          width={1800}
+          width={2400}
           height={1400}
           className=" md:hidden"
         />
         <Image
           src={mdSeparator}
           alt="Separador medio"
-          width={1800}
+          width={2400}
           height={1400}
           className="hidden md:block w-full"
         />
@@ -75,14 +75,14 @@ export function Section1() {
       <div className="w-full">
         <Image
           src={rightSeparator}
-          width={1800}
+          width={2400}
           height={1800}
           alt="Separador de página"
           className="md:hidden"
         />
         <Image
           src={mdRightSeparator}
-          width={1800}
+          width={2400}
           height={1800}
           alt="Separador de página"
           className="hidden md:block"
