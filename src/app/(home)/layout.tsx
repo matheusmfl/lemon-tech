@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <Head>
-        <meta property="og:image" content="../assets/banner.png" />
+        <meta property="og:image" content="../assets/banner.jpg" />
       </Head>
       <Script
         async
