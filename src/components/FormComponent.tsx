@@ -2,6 +2,7 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
 import { Separator } from './Separator'
+import emailjs from '@emailjs/browser'
 
 const FormComponent = () => {
   const {
@@ -10,9 +11,24 @@ const FormComponent = () => {
     formState: { errors },
   } = useForm()
 
-  const onSubmit = (data: any) => {
-    console.log(data)
-    // Faça algo com os dados do formulário, como enviar para um servidor
+  const onSubmit = async (data: any) => {
+    try {
+      const serviceId = 'service_h9a9j6l'
+      const templateId = 'template_g5nqhne'
+      const userId = 'St-rFkEvMQwMP0dgQ'
+
+      // Montar os parâmetros do e-mail
+      const templateParams = {
+        from_name: data.nome,
+        from_email: data.email,
+        from_telephone: data.telefone,
+        message: data.mensagem,
+      }
+      console.log('enviou')
+      await emailjs.send(serviceId, templateId, templateParams, userId)
+    } catch (err) {
+      console.log(err)
+    }
   }
 
   return (
