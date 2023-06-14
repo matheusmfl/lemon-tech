@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import { Separator } from './Separator'
 import separator from '../assets/rightSeparator.svg'
-import mockup from '../assets/mockupCoupleSection.svg'
-import mediumMockup from '../assets/medium-mockup.svg'
+import mockup from '../assets/mockupCoupleSection.webp'
+import mediumMockup from '../assets/medium-mockup.webp'
 import mdRightSeparator from '../assets/mediumRightSeparator.svg'
-import largeMockup from '../assets/large-mockup.svg'
+import largeMockup from '../assets/large-mockup.webp'
 
 export function CoupleSection() {
   return (
