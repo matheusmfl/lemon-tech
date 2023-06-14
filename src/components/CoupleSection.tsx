@@ -64,14 +64,14 @@ export function CoupleSection() {
           <div className="pt-[326px] md:pt-[160px] lg:pt-[40px]">
             <Image
               src={separator}
-              width={1800}
+              width={2400}
               height={1800}
               alt="Separador de página"
               className="md:hidden"
             />
             <Image
               src={mdRightSeparator}
-              width={1800}
+              width={2400}
               height={1800}
               alt="Separador de página"
               className="hidden md:block"
