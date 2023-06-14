@@ -17,6 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <meta property="og:image" content="../assets/banner.png" />
+      </head>
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-QYNZTSYH7Y"
