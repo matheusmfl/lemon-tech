@@ -15,7 +15,7 @@ export function Section1() {
           alt="Separador de página"
           width={2400}
           height={1400}
-          className=" md:hidden"
+          className=" md:hidden object-fill"
         />
         <Image
           src={mdSeparator}
