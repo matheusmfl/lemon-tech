@@ -61,7 +61,7 @@ export function CoupleSection() {
             </span>
           </div>
           {/* Separador com PT para caber imagem */}
-          <div className="pt-[326px] md:pt-[160px] lg:pt-[40px] translate-x-1">
+          <div className="pt-[326px] md:pt-[160px] lg:pt-[40px]">
             <Image
               src={separator}
               width={1800}
