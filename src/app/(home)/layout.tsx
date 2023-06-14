@@ -3,6 +3,7 @@ import '../globals.css'
 import { Roboto } from 'next/font/google'
 
 import Script from 'next/script'
+import Head from 'next/head'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -17,9 +18,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <meta property="og:image" content="../assets/banner.png" />
-      </head>
+      </Head>
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-QYNZTSYH7Y"
