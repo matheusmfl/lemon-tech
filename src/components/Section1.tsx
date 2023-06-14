@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import separator from '../assets/separator.svg'
+import separator from '../assets/separator.png'
 import mockup from '../assets/mockupFirstSection.webp'
 import { Separator } from './Separator'
 import rightSeparator from '../assets/rightSeparator.svg'
