@@ -4,6 +4,8 @@ import { Roboto } from 'next/font/google'
 
 import Script from 'next/script'
 import Head from 'next/head'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -38,7 +40,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         }}
       />
 
-      <body className={`${roboto.className} overflow-x-hidden`}>
+      <body
+        className={`${roboto.className} overflow-x-hidden bg-neutral-900 flex flex-col`}
+      >
         {/* <!-- Google Tag Manager (noscript) --> */}
         <noscript>
           <iframe
@@ -49,9 +53,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           ></iframe>
         </noscript>
         {/* <!-- End Google Tag Manager (noscript) --> */}
+        <Header />
         <main className="bg-neutral-900 flex flex-col md:z-10 md:overflow-x-hidden">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   )
