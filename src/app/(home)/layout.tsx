@@ -4,8 +4,8 @@ import { Roboto } from 'next/font/google'
 
 import Script from 'next/script'
 import Head from 'next/head'
-import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
+import { HeaderCollapsible } from '@/components/microComponents/HeaderCollapsible'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -53,7 +53,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           ></iframe>
         </noscript>
         {/* <!-- End Google Tag Manager (noscript) --> */}
-        <Header />
+        <HeaderCollapsible />
         <main className="bg-neutral-900 flex flex-col md:z-10 md:overflow-x-hidden">
           {children}
         </main>
