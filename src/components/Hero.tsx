@@ -11,18 +11,16 @@ export function Hero() {
       />
       <div className="pt-14 z-10">
         <h1 className="font-semibold text-4xl leading-[48px] lg:leading-[76px] lg:w-[720px] lg:text-6xl text-slate-50 text-left">
-          Design e<br className="md:hidden" /> Tecnologia para
-          <br className="hidden md:block" /> vendas e gestão administrativa
+          Criamos uma
+          <br className="md:hidden" /> máquina de vendas para seu negócio
         </h1>
       </div>
 
       <Separator />
 
-      <span className="font-normal text-base leading-6 text-slate-50 md:w-[482px] z-10">
-        De pequenos empreendedores a grandes corporações, encontre a melhor
-        solução tecnológica para fomentar suas vendas, posicionar sua marca e
-        auxiliar seus projetos
-        <br /> de gestão estratégica.
+      <span className="font-medium text-2xl leading-10 text-slate-50 md:w-[482px] z-10">
+        Sites institucionais <br />
+        E-commerce <br />& Sistemas de gestão
       </span>
 
       <button className="font-medium md:w-[192px] leading-5 hover:brightness-95 text-slate-50 py-[10px] w-full text-center bg-teal-700 rounded-[4px]">
