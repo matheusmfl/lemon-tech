@@ -11,7 +11,7 @@ export function Hero() {
       />
       <div className="pt-14 z-10">
         <h1 className="font-semibold text-4xl leading-[48px] lg:leading-[76px] lg:w-[720px] lg:text-6xl text-slate-50 text-left">
-          Criamos uma
+          Criaremos uma
           <br className="md:hidden" /> máquina de vendas para seu negócio
         </h1>
       </div>
