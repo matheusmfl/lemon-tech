@@ -51,7 +51,12 @@ export function SectionCardsPrice() {
           </span>
 
           <button className="w-full py-[10px] md:w-[140px] hover:brightness-90 text-center bg-teal-700 rounded-[4px] font-medium text-slate-50 text-base">
-            Saiba mais
+            <a
+              href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
+              rel="noreferrer"
+            >
+              Saiba mais
+            </a>
           </button>
         </div>
       </div>

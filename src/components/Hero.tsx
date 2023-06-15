@@ -26,7 +26,12 @@ export function Hero() {
       </span>
 
       <button className="font-medium md:w-[192px] leading-5 hover:brightness-95 text-slate-50 py-[10px] w-full text-center bg-teal-700 rounded-[4px]">
-        Comece agora
+        <a
+          href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
+          rel="noreferrer"
+        >
+          Comece agora
+        </a>
       </button>
 
       <a

@@ -67,7 +67,12 @@ export function Section1() {
         {/* div do button */}
         <div className="px-6 py-4 md:hidden">
           <button className="w-full py-[10px] font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
-            Comece a aceitar pagamentos
+            <a
+              href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
+              rel="noreferrer"
+            >
+              Comece a aceitar pagamentos
+            </a>
           </button>
         </div>
       </div>
