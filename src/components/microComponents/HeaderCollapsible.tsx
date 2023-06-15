@@ -19,7 +19,7 @@ export function HeaderCollapsible() {
           <Image src={logo} alt="Logomarca da empresa" />
         </div>
         <Collapsible.Trigger asChild className=''>
-          <button className="text-white">
+          <button aria-label="Menu" className="text-white">
             {open ? <X size={20} /> : <Menu size={20} />}
           </button>
         </Collapsible.Trigger>
