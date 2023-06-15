@@ -23,6 +23,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <Head>
         <meta property="og:image" content="../../assets/banner.jpg" />
       </Head>
+      {/* Analytics Tags */}
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-QYNZTSYH7Y"
@@ -36,6 +37,24 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             gtag('js', new Date());
           
             gtag('config', 'G-QYNZTSYH7Y');
+          `,
+        }}
+      />
+
+      {/* Google ADS Tags */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=AW-11175505980"
+      ></Script>
+      <Script
+        id="Analytics"
+        dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'AW-11175505980');
           `,
         }}
       />
