@@ -27,10 +27,10 @@ export function Footer() {
         </span>
         <ul className="text-xs flex flex-col gap-5 text-slate-50 leading-5 font-normal">
           <li className="hover:underline">
-            <a href="/">+ 55 81 97324-5224</a>
+            <a href="/">+ 55 81 99117-6822</a>
           </li>
           <li className="hover:underline">
-            <a href="/">+ 55 81 97324-5224</a>
+            <a href="/">+ 55 81 3224-3402</a>
           </li>
         </ul>
         <span className="text-slate-50 font-medium text-sm leading-5">
@@ -38,7 +38,7 @@ export function Footer() {
         </span>
         <ul className="text-xs flex flex-col gap-5 text-slate-50 leading-5 font-normal">
           <li className="hover:underline">
-            <a href="/">Quem somos (história e valores)</a>
+            <a href="/">Quem somos - História e valores</a>
           </li>
           <li className="hover:underline">
             <a href="/">Membros e parceiros</a>
@@ -48,7 +48,7 @@ export function Footer() {
       {/* Endereço */}
 
       <span className="text-slate-50 font-medium text-sm lg:text-left leading-5 z-10 text-center hover:underline cursor-pointer">
-        Av. Fernando simoes barbosa, 380 - Boa viagem - Recife, PE/Brasil
+        R. do Imperador Pedro II, 307 - sala 902 - Santo Antônio, Recife - PE
       </span>
 
       {/* SocialMedia */}
