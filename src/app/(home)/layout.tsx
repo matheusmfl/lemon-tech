@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       {/* Google ADS Tags */}
       <Script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=AW-11175505980"
+        src="https://www.googletagmanager.com/gtag/js?id=GTM-WJ8B4JL"
       ></Script>
       <Script
         id="Analytics"
@@ -54,7 +54,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
-          gtag('config', 'AW-11175505980');
+          gtag('config', 'GTM-WJ8B4JL');
           `,
         }}
       />
