@@ -22,18 +22,16 @@ export function Hero() {
         Sites institucionais <br />
         E-commerce <br />& Sistemas de gestão
       </span>
-
-      <button className="font-medium md:w-[192px] leading-5 hover:brightness-95 text-slate-50 py-[10px] w-full text-center bg-teal-700 rounded-[4px]">
-        <a
-          href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
-          rel="noreferrer"
-        >
-          Comece agora
-        </a>
-      </button>
-
       <a
-        href="/"
+        href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
+        rel="noreferrer"
+      >
+        <button className="font-medium md:w-[192px] leading-5 hover:brightness-95 text-slate-50 py-[10px] w-full text-center bg-teal-700 rounded-[4px]">
+          Comece agora
+        </button>
+      </a>
+      <a
+        href="/contato"
         className="flex gap-2 pr-4 text-slate-50 font-medium text-base hover:underline"
       >
         Fale com a equipe de vendas{' '}

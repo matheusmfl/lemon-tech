@@ -49,11 +49,11 @@ export function Section1() {
               negócios.
             </span>
             {/* Botão só existe na responsividade */}
-            <button className="w-full py-[10px] lg:w-[326px] hidden md:block font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
-              <a href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21">
+            <a href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21">
+              <button className="w-full py-[10px] lg:w-[326px] hidden md:block font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
                 Aumente suas vendas hoje mesmo
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
         {/* Div de imagem */}
@@ -69,14 +69,14 @@ export function Section1() {
         <div className="hidden md:block md:w-[394px] md:h-[645px]" />
         {/* div do button */}
         <div className="px-6 py-4 md:hidden">
-          <button className="w-full py-[10px] font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
-            <a
-              href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
-              rel="noreferrer"
-            >
+          <a
+            href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
+            rel="noreferrer"
+          >
+            <button className="w-full py-[10px] font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
               Aumente suas vendas hoje mesmo
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
 

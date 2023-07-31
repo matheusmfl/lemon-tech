@@ -90,17 +90,17 @@ export function CoupleSection() {
           </span>
 
           {/* botão */}
-          <button
-            aria-label="Chamar no whatsapp"
-            className="w-full py-[10px] md:w-[305px] text-center bg-teal-700 rounded-[4px] font-medium text-slate-50 text-base"
+          <a
+            href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
+            rel="noreferrer"
           >
-            <a
-              href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
-              rel="noreferrer"
+            <button
+              aria-label="Chamar no whatsapp"
+              className="w-full py-[10px] md:w-[305px] text-center bg-teal-700 rounded-[4px] font-medium text-slate-50 text-base"
             >
               Entenda como podemos te ajudar
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </div>
     </section>

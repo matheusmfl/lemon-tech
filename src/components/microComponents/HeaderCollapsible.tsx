@@ -16,7 +16,10 @@ export function HeaderCollapsible() {
     <Collapsible.Root open={open} onOpenChange={setOpen}>
       <header className="px-6 py-8 flex justify-between md:px-20 overflow-hidden">
         <div>
-          <Image src={logo} alt="Logomarca da empresa" />
+          <a href="/">
+
+            <Image src={logo} alt="Logomarca da empresa" />
+          </a>
         </div>
         <Collapsible.Trigger asChild className=''>
           <button aria-label="Menu" className="text-white">
