@@ -19,16 +19,18 @@ export function SectionCardsPrice() {
           </h2>
           <Separator />
           <span className="font-normal text-base leading-6 lg:w-[400px] text-slate-900">
-            Site mínimo viável é construído e pago por etapas facilitando seu
-            primeiro passo para o digital.
+            Aumente sua presença on-line hoje mesmo com um site incrível! <br />
+            Assuma o controle de seu sucesso e crie uma impressão duradoura.
+            Comece por etapas pequenas até alcançar um gigante sistema de
+            tecnologia
           </span>
         </div>
         {/* div cards */}
         <div className="flex flex-col gap-5 md:flex-row md:grid md:grid-cols-3">
           <PriceCards
             cardType="step1"
-            title="Crie um MVP do seu site e arrecade dinheiro"
-            content="Site de página única “landing page” para primeiras vendas online e ter um canal sólido para apresentar sua marca"
+            title="Crie o primeiro protótipo do seu site e arrecade dinheiro"
+            content="Plano mais básico onde construiremos sua marca no digital, site institucional de página única completo para suas necessidades"
           />
           <PriceCards
             cardType="step2"

@@ -18,23 +18,20 @@ export function Section2() {
       {/* TextDiv */}
       <div className="flex flex-col gap-5 md:pt-5 lg:w-[540px]">
         <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
-          Identidade da marca
+          Alcance mais clientes
         </span>
 
         <h2 className="font-medium text-[32px] leading-10 text-slate-50 md:w-[342px]">
-          Melhore a presença digital da sua marca
+          Eleve o nível do seu marketing com páginas de alto desempenho.
         </h2>
 
         <Separator />
 
         <span className="font-normal text-base leading-6 z-20 text-slate-50 md:w-[640px] lg:w-[440px] lg:pb-20">
-          Empresas com sites mal estruturados correm o risco de prejudicar seu
-          valor aos olhos dos clientes. A experiência negativa, a dificuldade em
-          encontrar informações relevantes e o design pouco atraente podem levar
-          os clientes a buscar alternativas mais eficientes e profissionais.
-          Investir em um site bem feito, intuitivo e visualmente atraente é
-          essencial para transmitir uma imagem positiva e atrair a confiança dos
-          clientes.
+          Seu site e suas páginas de destino são a cara do seu negócio. Com a
+          nossa experiência na criação de páginas de destino de alto desempenho,
+          você pode cativar seu público, gerar conversões e levar seu marketing
+          a novos patamares.
         </span>
       </div>
       {/* Container dos cards */}
@@ -53,7 +50,7 @@ export function Section2() {
 
         <CardsGlasmorfism
           title="Experiência do usuário"
-          content="Converta mais vendas ao ter uma experiência projetada de forma estratégica para o seu público"
+          content="Converta mais vendas utilizando gatilhos mentais projetados para seu público!"
           cardType="experiencia"
         />
 

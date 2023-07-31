@@ -32,24 +32,27 @@ export function Section1() {
           {/* Hero text Div */}
           <div className="flex flex-col gap-5 md:w-[412px] lg:w-[620px] lg:gap-10 lg:pt-20">
             <span className="font-medium text-sm text-gray-500 leading-4 md:text-lg">
-              Pagamento integrado
+              Destaque-se dos concorrentes
             </span>
 
             <h2 className="font-medium text-[32px] leading-10 text-slate-900">
-              Implemente formas de pagamento sem dificuldades
+              Destaque-se com sites impressionantes e sofisticados.
             </h2>
 
             <Separator />
 
             <span className="font-normal text-base leading-6 text-slate-900">
-              Muitas empresas sofrem com a falta de agilidade e baixo controle
-              financeiro por ainda dependerem de pagamentos por Whatsapp, isso
-              prejudica a agilidade do processo de compra, o controle financeiro
-              e a credibilidade do seu negócio.
+              Nossa equipe de designers e programadores qualificados é
+              especializada na criação de sites e páginas de destino de alto
+              desempenho otimizados para marketing. Com nossa experiência,
+              ajudaremos você a impulsionar as vendas e atingir suas metas de
+              negócios.
             </span>
             {/* Botão só existe na responsividade */}
             <button className="w-full py-[10px] lg:w-[326px] hidden md:block font-medium text-white text-base leading-5 bg-neutral-900 rounded-[4px] hover:brightness-95  ">
-              Comece a aceitar pagamentos
+              <a href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21">
+                Aumente suas vendas hoje mesmo
+              </a>
             </button>
           </div>
         </div>
@@ -71,7 +74,7 @@ export function Section1() {
               href="https://wa.me/5581991176822?text=Ol%C3%A1%2C+gostaria+de+saber+mais+informa%C3%A7%C3%B5es+sobre+seus+produtos%21"
               rel="noreferrer"
             >
-              Comece a aceitar pagamentos
+              Aumente suas vendas hoje mesmo
             </a>
           </button>
         </div>
